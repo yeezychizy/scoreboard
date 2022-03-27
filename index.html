@@ -12,14 +12,34 @@
 
 <body>
     <main>
-        <div class="container">
-            <h1>counter</h1>
-            <span id="value">0</span>
-            <div class="button-container">
-                <button class="btn decrease">decrease</button>
-                <button class="btn reset">reset</button>
-                <button class="btn increase">increase</button>
+        <div class="parent" style="text-align:center">
+            <h1>Scoreboard</h1>
+            <div class="child">
+                <div>
+                    <h2 style="color:goldenrod">TEAM ALPHA</h2>
+                </div>
+                <span id="valueA">0</span>
+                <div class="button-container">
+                    <button class="btn decreaseA">decrease</button>
+                    <button class="btn resetA">reset</button>
+                    <button class="btn increaseA">increase</button>
+                </div>
+
             </div>
+
+            <div class="child">
+                <div>
+                    <h2 style="color:cornflowerblue">TEAM BETA</h2>
+                </div>
+                <span id="valueB">0</span>
+                <div class="button-container">
+                    <button class="btn decreaseB">decrease</button>
+                    <button class="btn resetB">reset</button>
+                    <button class="btn increaseB">increase</button>
+                </div>
+
+            </div>
+            
         </div>
     </main>
     <!-- javascript -->

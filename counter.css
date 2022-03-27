@@ -162,13 +162,26 @@ main {
   display: grid;
   place-items: center;
 }
-.container {
+
+/* .container {
   text-align: center;
-}
-#value {
+} */
+
+/* #value {
+  font-size: 6rem;
+  font-weight: bold;
+} */
+
+#valueA {
   font-size: 6rem;
   font-weight: bold;
 }
+
+#valueB {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
 .btn {
   text-transform: uppercase;
   background: transparent;
@@ -187,4 +200,21 @@ main {
 .btn:hover {
   color: var(--clr-white);
   background: var(--clr-black);
+}
+
+.parent {
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  background-color: beige;
+}
+
+.child {
+  display: inline-block;
+  border: 1px solid black;
+  /* margin: 1rem; */
+  padding: 1rem 1rem;
+  /* text-align: center; */
+  vertical-align: middle;
 }
