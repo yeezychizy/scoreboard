@@ -212,9 +212,7 @@ main {
 
 .child {
   display: inline-block;
-  border: 1px solid black;
-  /* margin: 1rem; */
+  border: 3px solid black;
   padding: 1rem 1rem;
-  /* text-align: center; */
   vertical-align: middle;
 }
